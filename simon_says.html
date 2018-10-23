@@ -1,0 +1,50 @@
+<html>
+<head>
+  <title>Simon</title>
+
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script type= 'text/javascript' src= 'simon_says.js' ></script>
+
+</head>
+<body>
+  <h1>Simon Says</h1>
+<div class="game">
+  <table class="row">
+    <tr>
+      <td>
+        <div id="white" class="col-xs-8">round<br />--</div>
+      </td>
+      <td>
+        <div id="up" class="col-xs-6"><img src=./arrows/normal/up_arrow.png id='upArrow' class='arrow' /></div>
+      </td>
+      <td>
+        <div id="empty" class="col-xs-8">Get to<br />20<br />to Win</div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div id="left" class="col-xs-6"><img src=./arrows/normal/left_arrow.png id='leftArrow' class='arrow' /></div>
+      </td>
+      <td>
+        <div id="down" class="col-xs-6"><img src=./arrows/normal/down_arrow.png id='downArrow' class='arrow' /></div>
+      </td>
+      <td>
+        <div id="right" class="col-xs-6"><img src=./arrows/normal/right_arrow.png id='rightArrow' class='arrow' /></div>
+      </td>
+    </tr>
+  </table>
+<div class="buttons">
+  <div class="btn Start">Normal Mode</div>
+  <div class="btn Strict">Strict Mode</div>
+</div>
+</div>
+<div style="display:none" class="text"><h1>You Win!</h1></div>
+
+
+
+
+</body>
+
+</html>
